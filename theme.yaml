@@ -1,4 +1,7 @@
 ---
+frontend:
+  themes: !include_dir_merge_named themes
+  
 Wall-Tablet-Theme:
   # Journal
   state-icon-color: "rgb(var(--color-theme))"
